@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+<meta name="theme-color" content="#0B1240" />
+<title>CNH do Brasil</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="app">
+
+<div id="screen-home" class="screen active">
+
+  <header class="topbar">
+    <button class="icon-btn" aria-label="Menu">
+      <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+
+    <h1 class="user-name" id="userName">GUSTAVO</h1>
+
+    <div class="topbar-right">
+      <button class="icon-btn" aria-label="Notificações">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="#fff">
+          <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4a1.5 1.5 0 0 0-3 0v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/>
+        </svg>
+      </button>
+      <div class="avatar" id="avatar">G</div>
+    </div>
+  </header>
+
+  <main class="cards">
+
+    <section class="card card-green" id="card-condutor">
+      <div class="card-text">
+        <h2>CONDUTOR</h2>
+        <p>Gerencie sua<br/><strong>habilitação</strong></p>
+      </div>
+      <div class="card-icon">
+        <svg viewBox="0 0 64 48" width="72" height="54" fill="#fff">
+          <circle cx="14" cy="10" r="6.5"/>
+          <path d="M2 30c0-7 6-11 12-11s12 4 12 11v3H2z"/>
+          <g transform="translate(24,14)">
+            <path d="M2 20l2-9c.6-2.4 2.7-4 5.2-4h13.6c2.5 0 4.6 1.6 5.2 4l2 9v6a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-1H6v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z"/>
+            <circle cx="6" cy="26" r="3" fill="#fff"/>
+            <circle cx="24" cy="26" r="3" fill="#fff"/>
+            <rect x="3" y="9" width="24" height="4" fill="#1DA463"/>
+          </g>
+        </svg>
+      </div>
+      <div class="card-bg-lines"></div>
+    </section>
+
+    <section class="card card-yellow" id="card-veiculos">
+      <div class="card-text">
+        <h2>VEÍCULOS</h2>
+        <p>Acesso ao <strong>CRLV-e</strong>,<br/>venda digital</p>
+      </div>
+      <div class="card-icon">
+        <svg viewBox="0 0 64 40" width="80" height="50" fill="#fff">
+          <path d="M4 24l3-11c.7-2.6 3-4.4 5.7-4.4h30.6c2.7 0 5 1.8 5.7 4.4l3 11v9a2.5 2.5 0 0 1-2.5 2.5h-3A2.5 2.5 0 0 1 44 33v-2H12v2a2.5 2.5 0 0 1-2.5 2.5h-3A2.5 2.5 0 0 1 4 33z"/>
+          <circle cx="12" cy="30" r="4" fill="#F5B800"/>
+          <circle cx="44" cy="30" r="4" fill="#F5B800"/>
+          <rect x="8" y="9" width="40" height="5" fill="#F5B800"/>
+        </svg>
+      </div>
+      <div class="card-bg-lines"></div>
+    </section>
+
+    <section class="card card-blue-dark" id="card-infracoes">
+      <div class="card-text">
+        <h2>INFRAÇÕES</h2>
+        <p>Visualize e pague infrações<br/>com até <strong>40% de desconto</strong></p>
+      </div>
+      <div class="card-icon">
+        <svg viewBox="0 0 64 48" width="72" height="54" fill="#fff">
+          <circle cx="14" cy="10" r="6.5"/>
+          <path d="M2 30c0-7 6-11 12-11s12 4 12 11v3H2z"/>
+          <rect x="10" y="6" width="8" height="3" rx="1" fill="#1A3E8C"/>
+          <g transform="translate(24,14)">
+            <path d="M2 20l2-9c.6-2.4 2.7-4 5.2-4h13.6c2.5 0 4.6 1.6 5.2 4l2 9v6a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-1H6v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z"/>
+            <circle cx="6" cy="26" r="3" fill="#fff"/>
+            <circle cx="24" cy="26" r="3" fill="#fff"/>
+            <rect x="3" y="9" width="24" height="4" fill="#1A3E8C"/>
+          </g>
+        </svg>
+      </div>
+      <div class="card-bg-lines"></div>
+    </section>
+
+    <section class="card card-blue-light">
+      <div class="card-text">
+        <h2>EDUCAÇÃO</h2>
+        <p>Conheça nossa<br/><strong>plataforma de cursos</strong></p>
+      </div>
+      <div class="card-icon">
+        <svg viewBox="0 0 64 48" width="72" height="54" fill="#fff">
+          <circle cx="14" cy="9" r="6"/>
+          <path d="M3 28c0-6.5 5.5-10 11-10s11 3.5 11 10v2H3z"/>
+          <g transform="translate(26,10)">
+            <rect x="0" y="0" width="30" height="20" rx="2"/>
+            <rect x="3" y="3" width="24" height="14" rx="1" fill="#6EC1F0"/>
+            <rect x="11" y="21" width="8" height="3" fill="#fff"/>
+          </g>
+        </svg>
+      </div>
+      <div class="card-bg-lines"></div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-logo">
+      <svg viewBox="0 0 40 40" width="30" height="30">
+        <circle cx="20" cy="20" r="18" fill="#0057A8"/>
+        <path d="M13 26c-2-2-3-5-2-9 1-4 4-6 7-6-1 2-1 4 0 6 1 2 3 3 5 3-1 3-4 5-7 6-1 0-2 0-3 0z" fill="#fff"/>
+      </svg>
+      <span>Serpro</span>
+    </div>
+    <div class="footer-title">CNH do <strong>BRASIL</strong></div>
+    <div class="footer-ministry">
+      <span>MINISTÉRIO DOS<br/><strong>TRANSPORTES</strong></span>
+      <svg viewBox="0 0 30 21" width="30" height="21">
+        <rect width="30" height="21" fill="#009739"/>
+        <polygon points="15,3 27,10.5 15,18 3,10.5" fill="#FEDD00"/>
+        <circle cx="15" cy="10.5" r="4.2" fill="#012169"/>
+      </svg>
+    </div>
+  </footer>
+
+</div>
+
+  <div id="screen-condutor" class="screen">
+    <header class="subheader">
+      <button class="icon-btn back-btn" aria-label="Voltar" data-back>
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+      </button>
+      <div class="subheader-text">
+        <h1>CONDUTOR</h1>
+      </div>
+    </header>
+
+    <div class="condutor-body">
+      <div class="info-card">
+        <h2>Informações do Condutor</h2>
+        <hr/>
+        <div class="info-scroll">
+          <div class="info-row">
+            <div class="info-field full">
+              <span class="label">Nome</span>
+              <span class="value" id="c-nome"></span>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-field">
+              <span class="label">CPF</span>
+              <span class="value" id="c-cpf"></span>
+            </div>
+            <div class="info-field">
+              <span class="label">Sexo</span>
+              <span class="value" id="c-sexo"></span>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-field">
+              <span class="label">Categoria</span>
+              <span class="value" id="c-categoria"></span>
+            </div>
+            <div class="info-field">
+              <span class="label">UF de Emissão</span>
+              <span class="value" id="c-uf"></span>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-field">
+              <span class="label">Data de Validade</span>
+              <span class="value" id="c-validade"></span>
+            </div>
+            <div class="info-field">
+              <span class="label">Data de Emissão</span>
+              <span class="value" id="c-emissao"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mini-grid">
+        <button class="mini-card" id="card-cnh">
+          <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="#1B44C4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="5" width="20" height="14" rx="2"/>
+            <circle cx="8" cy="12" r="2"/>
+            <path d="M5 16c.5-1.7 1.8-2.5 3-2.5s2.5.8 3 2.5"/>
+            <line x1="14" y1="9" x2="19" y2="9"/>
+            <line x1="14" y1="12" x2="19" y2="12"/>
+            <line x1="14" y1="15" x2="17" y2="15"/>
+          </svg>
+          <span>CNH</span>
+        </button>
+
+        <button class="mini-card" data-fake-action>
+          <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="#1B44C4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2l7 3v6c0 5-3 8.5-7 11-4-2.5-7-6-7-11V5z"/>
+            <circle cx="12" cy="12" r="4.2" fill="#fff" stroke="none"/>
+            <circle cx="12" cy="12" r="4.2"/>
+            <polyline points="10 12 11.5 13.5 14.2 10.5"/>
+          </svg>
+          <span>SERVIÇOS PARA CNH</span>
+        </button>
+
+        <button class="mini-card" data-fake-action>
+          <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="#1B44C4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="7" r="3.2"/>
+            <path d="M5 18c0-3.5 3-5.5 7-5.5s7 2 7 5.5"/>
+            <polygon points="7 19.2 7.6 20.6 9 20.7 7.9 21.6 8.3 23 7 22.2 5.7 23 6.1 21.6 5 20.7 6.4 20.6" fill="#1B44C4" stroke="none"/>
+            <polygon points="17 19.2 17.6 20.6 19 20.7 17.9 21.6 18.3 23 17 22.2 15.7 23 16.1 21.6 15 20.7 16.4 20.6" fill="#1B44C4" stroke="none"/>
+          </svg>
+          <span>CADASTRO POSITIVO</span>
+        </button>
+
+        <button class="mini-card" data-fake-action>
+          <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="#1B44C4" stroke-width="1.8">
+            <circle cx="12" cy="12" r="10"/>
+            <text x="12" y="16.5" text-anchor="middle" font-size="11" font-weight="700" fill="#1B44C4" stroke="none" font-family="Segoe UI, sans-serif">E</text>
+          </svg>
+          <span>CREDENCIAL DE ESTACIONAMENTO</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="screen-cnh" class="screen">
+    <header class="subheader">
+      <button class="icon-btn back-btn" aria-label="Voltar" data-back>
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+      </button>
+      <div class="subheader-text">
+        <h1>HABILITAÇÃO</h1>
+        <p>Atualizado em: <span class="ts" data-ts="cnh"></span></p>
+      </div>
+    </header>
+
+    <div class="qr-notice">Verifique autenticidade do QR Code com o app <a href="#">Vio</a></div>
+
+    <div class="cnh-carousel">
+      <div class="cnh-carousel-track" id="cnh-track">
+
+        <div class="cnh-slide">
+          <div class="cnh-image-wrapper">
+            <img src="assets/cnh-front.png" alt="CNH - frente" />
+          </div>
+        </div>
+
+        <div class="cnh-slide">
+          <div class="cnh-image-wrapper">
+            <img src="assets/cnh-back.jpg" alt="CNH - verso" />
+          </div>
+        </div>
+
+        <div class="cnh-slide">
+          <div class="cnh-placeholder">Slide 3 — em breve</div>
+        </div>
+        <div class="cnh-slide">
+          <div class="cnh-placeholder">Slide 4 — em breve</div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="carousel-dots" id="cnh-dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <div class="cnh-actions">
+      <div class="cnh-action-btn">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#1B44C4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="5" width="20" height="14" rx="2"/>
+          <circle cx="8" cy="12" r="2"/>
+          <path d="M5 16c.5-1.7 1.8-2.5 3-2.5s2.5.8 3 2.5"/>
+          <line x1="14" y1="9" x2="19" y2="9"/>
+          <line x1="14" y1="15" x2="19" y2="15"/>
+        </svg>
+        <span>Histórico de emissões da CNH</span>
+      </div>
+
+      <div class="cnh-action-btn">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#1B44C4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+          <polyline points="14 2 14 8 20 8"/>
+          <path d="M9 15l3 3 3-5"/>
+        </svg>
+        <span>Exportar</span>
+      </div>
+
+      <div class="cnh-action-btn">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#1B44C4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="3 6 5 6 21 6"/>
+          <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/>
+          <path d="M10 11v6"/>
+          <path d="M14 11v6"/>
+          <path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/>
+        </svg>
+        <span>Remover</span>
+      </div>
+
+      <div class="cnh-action-btn">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#1B44C4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="9" y="9" width="12" height="12" rx="2"/>
+          <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+        </svg>
+        <span>Copiar QR Code</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="screen-veiculos" class="screen">
+    <header class="subheader">
+      <button class="icon-btn back-btn" aria-label="Voltar" data-back>
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+      </button>
+      <div class="subheader-text">
+        <h1>VEÍCULOS</h1>
+        <p>Atualizada em: <span class="ts" data-ts="veiculos"></span></p>
+      </div>
+    </header>
+
+    <div class="empty-state">
+      <div class="empty-logo">
+        <svg viewBox="0 0 30 21" width="56" height="39">
+          <rect width="30" height="21" fill="#009739"/>
+          <polygon points="15,3 27,10.5 15,18 3,10.5" fill="#FEDD00"/>
+          <circle cx="15" cy="10.5" r="4.2" fill="#012169"/>
+        </svg>
+        <div class="empty-logo-text">CNH do<br/><strong>BRASIL</strong></div>
+      </div>
+      <p class="empty-message">Você não possui veículos</p>
+      <button class="reload-btn" data-reload="veiculos">RECARREGAR LISTA DE VEÍCULOS</button>
+    </div>
+  </div>
+
+  <div id="screen-infracoes" class="screen">
+    <header class="subheader">
+      <button class="icon-btn back-btn" aria-label="Voltar" data-back>
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+      </button>
+      <div class="subheader-text">
+        <h1>INFRAÇÕES</h1>
+        <p>Atualizada em: <span class="ts" data-ts="infracoes"></span></p>
+      </div>
+    </header>
+
+    <div class="empty-state">
+      <div class="empty-logo">
+        <svg viewBox="0 0 30 21" width="56" height="39">
+          <rect width="30" height="21" fill="#009739"/>
+          <polygon points="15,3 27,10.5 15,18 3,10.5" fill="#FEDD00"/>
+          <circle cx="15" cy="10.5" r="4.2" fill="#012169"/>
+        </svg>
+        <div class="empty-logo-text">CNH do<br/><strong>BRASIL</strong></div>
+      </div>
+      <p class="empty-message">Você não possui infrações</p>
+      <button class="reload-btn" data-reload="infracoes">RECARREGAR LISTA DE INFRAÇÕES</button>
+    </div>
+  </div>
+
+  <div id="fake-loading-overlay" class="fake-overlay">
+    <div class="fake-overlay-content" id="fake-loading-state">
+      <div class="spinner"></div>
+      <p>Carregando...</p>
+    </div>
+    <div class="fake-overlay-content" id="fake-error-state" style="display:none;">
+      <svg viewBox="0 0 24 24" width="52" height="52" fill="none" stroke="#D93025" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="2" y1="2" x2="22" y2="22"/>
+        <path d="M8.5 16.5a5 5 0 0 1 7 0"/>
+        <path d="M5 13a9.5 9.5 0 0 1 3.5-2.4"/>
+        <path d="M12.5 8.02c3 0 5.7 1.1 7.8 3"/>
+        <path d="M2 8.82a12.7 12.7 0 0 1 3.5-2.4"/>
+        <line x1="12" y1="20" x2="12.01" y2="20"/>
+      </svg>
+      <p class="error-title">Falha na conexão</p>
+      <p class="error-sub">Não foi possível conectar à internet. Tente novamente mais tarde.</p>
+    </div>
+  </div>
+
+</div>
+
+<script src="js/mock-data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
